@@ -2,3 +2,6 @@
 
 
 [Presentation](https://www.figma.com)
+
+strudel.cc and hydra 
+
