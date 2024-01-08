@@ -1,1 +1,20 @@
 sound("bd bd hh bd rim bd oh bd").cpm(40)
+
+
+
+
+
+
+-- basic code for messing around w/filters, 
+// https://splice.com/sounds/search/samples?filepath=vaporwave&filepath
+
+note("a3 c#4 e4 a4")
+  //note("[a3 c#4 e4 a4]/2")
+.s("sawtooth")
+   .s("gm_voice_oohs", "gm_synth_choir")
+   .s("gm_fx_soundtrack")
+ //  .s("gm_synth_choirs")
+  //.s("gm_recorder")
+.cutoff(700)
+.delay(0.5)
+.room(0.2)
