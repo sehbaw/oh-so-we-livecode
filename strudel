@@ -18,3 +18,46 @@ note("a3 c#4 e4 a4")
 .cutoff(700)
 .delay(0.5)
 .room(0.2)
+
+
+
+// rhythm doodle 
+
+stack(
+  s(`hh hh hh [hh*4],
+     perc ~ [cp oh],
+     bd bd [bd*3]
+  `).bank("RolandTR505"),
+).room(0.6)
+ .cpm(40)
+ .delay(0.3)
+
+
+
+
+// syncing with hydra example
+
+await initHydra()
+
+let pattern = "[[1,5 ~ ] 1 <5 3> [<[8,7] 8> 1]] / 2";
+
+stack(
+  s("bd [bd cp hh*2]").bank('YamahaRM50'),
+  s("hh hh oh").bank('YamahaRM50'),
+  s("[bd ~ cp] * 2").bank('SequentialCircuitsDrumtracks'),
+  n(pattern).scale("C:locrian").clip(2).s("gm_distortion_guitar"),
+  n("[c5 ~ ~ ~ ~ ~] / 6").s("gm_bird_tweet")
+).room(0.6)
+ .echo(3, 1/6, 0.3);
+
+
+// licensed with CC BY-NC-SA 4.0 https://creativecommons.org/licenses/by-nc-sa/4.0/
+// by Rodrigo Velasco
+// https://yecto.github.io/
+// Original link: https://hydra.ojack.xyz/?sketch_id=example_9
+
+osc(H(pattern), 0.1, 0).color(H(pattern), 0.1, 2)
+.mult(osc(H(pattern), 0.01, 0)).repeat(2, 20).rotate(0.5).modulate(o1)
+.scale(1, () =>  (a.fft[0]*0.9 + 2)).diff(o1).out(o0)
+osc(20, 0.2, 0).color(2, 0.7, 0.1).mult(osc(40)).modulateRotate(o0, 0.2)
+.rotate(0.2).out(o1)
