@@ -32,6 +32,9 @@ stack(
  .cpm(40)
  .delay(0.3)
 
+// basic sample 
+sound("bd*2,<white pink brown white pink>*8" )
+.decay(.04).sustain(0).scope()
 
 
 
