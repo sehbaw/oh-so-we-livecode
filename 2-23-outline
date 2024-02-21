@@ -1,0 +1,70 @@
+/***
+
+===SOUNDS===
+~  = rest (silence)
+bd = bass drum
+sd = snare drum	      cp = clap
+hh = hi hat		      oh = open hat
+lt = low tom		  mt = mid tom		    ht = high tom	
+rd = ride cymbal 	  cr = crash cymbal
+
+===PATTERNS===
+hh hh	= sequential
+hh,hh	= simultaneous
+<bd cp>	= alternate
+hh*2	= multiply (faster)
+hh/2	= divide (slower)
+[]		= combine patterns
+
+===EXAMPLES===
+Basic rock beat: 		sound("[bd sd]*2, hh*8").bank("RolandTR505").cpm(25)
+Classic house: 		    sound("bd*4, [~ cp]*2, [~ hh]*4").bank("RolandTR909")
+We Will Rock You: 		sound("bd*2 cp").bank("RolandTR707").cpm(40)
+
+***/
+
+sound("cp").bank("RolandTR808").cpm(60)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***
+
+===COMPOSE YOUR OWN MUSIC WITHOUT MUSIC THEORY===
+
+1. Look up the chords for a song on Ultimate Guitar
+   Ex.) Black Hole Sun: E G D C#m C B E F
+
+2. Enclose those chords in "< >" for your pattern 
+   Ex.) let progression = "<E G D C#m C B E F>"
+
+3. Plug into Strudel using n(), chord(), voicing(), and sound()!
+
+OPTIONAL: Pick a NOTE and a NUMBER to "anchor" your progression
+          The higher the number, the higher the notes
+          Ex.) A3, F5, G6
+
+***/
+
+/*
+let progression = "<E G D C#m C B E F>";
+n("[3 3] 2 [1 0] -1").chord(progression).anchor("F6").voicing().sound("gm_synth_strings_2")
+
+*/
