@@ -7,9 +7,18 @@ src(s0).pixelate(50,50).color(1,0,3).out(o0)
   //.color(1,0,6)
 
 
+// blending functions
+
+ 
+noise(10,0.4)
+  .mult(noise(10))
+.diff(osc(5))
+  .contrast( () => Math.sin(time) * 2)
+  .color(1,0,3)
+  .out(o0)
 
 
- // club bang paul maxwell music video visuals 
+ // club bang paul maxwell music video visuals - glitching input
 s0.initScreen()
 
  src(s0).colorama(0.30).modulate(osc(25,0.1,0.5))//replace modulateRepeatX //take out osc and put voronoi
