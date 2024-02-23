@@ -8,8 +8,6 @@ src(s0).pixelate(50,50).color(1,0,3).out(o0)
 
 
 // blending functions
-
- 
 noise(10,0.4)
   .mult(noise(10))
 .diff(osc(5))
