@@ -6,6 +6,11 @@ src(s0).pixelate(50,50).color(1,0,3).out(o0)
 //.pixelate(10,10)
   //.color(1,0,6)
 
+//glitch 
+osc(5,.1).modulate(noise(10),.22).diff(o0)
+  	.modulateScrollX(osc(6).modulate(osc().rotate(),.11))
+	.scale(.69).color(7,2.014,4)
+  	.out()
 
 
 // blending functions
@@ -35,9 +40,4 @@ src(o0).modulate(osc(3),()=>a.fft[0]).diff(voronoi(1),0.01).color(1,0,3).out(o0)
 
 //hush()
 
-
-osc(5,.1).modulate(noise(10),.22).diff(o0)
-  	.modulateScrollX(osc(6).modulate(osc().rotate(),.11))
-	.scale(.69).color(7,2.014,4)
-  	.out()
 
