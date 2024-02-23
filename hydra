@@ -22,3 +22,10 @@ s0.initScreen()
  src(s0).colorama(0.30).modulate(osc(25,0.1,0.5))//replace modulateRepeatX //take out osc and put voronoi
 //
               .out(o0)
+
+
+///dreaming
+// https://www.youtube.com/watch?v=veUjy8Ekltg 
+src(o0).modulate(osc(3),()=>a.fft[0]).diff(voronoi(1),0.01).color(1,0,3).out(o0)
+
+//hush()
