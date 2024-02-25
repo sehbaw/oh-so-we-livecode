@@ -16,4 +16,5 @@ notes on logistic -
   - make music accessible in a youtube playlist (have a spotify playlist rn but would have to log in so no)
   - have more audioreactive examples
   - have people introduce themselves and give a bit background around them so ppl can make friends + we know their coding level
-  - 
+  - zoom in on the strudel/hydra screen so people can see it
+  - walk around during independent work time and check on people individually
