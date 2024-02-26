@@ -23,3 +23,4 @@ notes on logistic -
   - have people introduce themselves and give a bit background around them so ppl can make friends + we know their coding level
   - zoom in on the strudel/hydra screen so people can see it
   - walk around during independent work time and check on people individually
+  - put QR codes on flyers (link to a calendar event so they are reminded on their phone? also it might help us track how effective the flyers are)
