@@ -1,10 +1,15 @@
 # 1.13.2024
+**Attendance:** 2  
+**Venue:** Rhizome DC
 
 Only two people showed up but I guess that was our fault for doing a workshop on a march day (was not planned whatsoever we were glad everyone was at the march and we would have been too)
 It was really fun and laxed partially because they did not know how to code 
 
 
 # 02.23.2024
+
+**Attendance:** 11  
+**Venue:** UMD IMD Visualization Lab (A.V. Williams 3258)
 
 SO MANY PEOPLE CAME??? it was a bit awkward because no one was saying much and was super quiet but carol did faboulous while I was a stuttering mess. I felt like they were all strung out by the time 
 I got to the podium because strudel is a lot to take in. I got all nervous for a sudden also because the projector was stressing me out so bad because I felt a bit out of control while being well in control? 
