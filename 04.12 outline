@@ -8,6 +8,17 @@ amongst the attendees.
 way to bring more collaboration: 
   -  first things first everyone has to go sit next to someone they don't know
   - everyone has to sit as close as possible (avoiding them sitting in the back)
-  - 
+  - for us teaching - we stop more to ask if anyone has any questions 
 
 
+
+
+# Activity - Hydra (20 minutes??)
+1. Have them test out each source to see the differences and what they like 
+2. have them add some geometry or modulate (can pick)
+3. Have them test out the Init functions (screen and Cam) to then mess around with input and what they can do. 
+  - image and video (from youtube) - need to teach them controls tho and the difference between running all code vs just a line as this is vital for 
+  -  can have them pixelate
+  - can have them try modulateScroll
+  - mess around with color (really fun and the functions should not be too tolling) 
+4. implement hydra w/strudel 
