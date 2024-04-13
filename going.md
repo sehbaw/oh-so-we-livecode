@@ -24,4 +24,12 @@ notes on logistic -
   - zoom in on the strudel/hydra screen so people can see it
   - walk around during independent work time and check on people individually
   - put QR codes on flyers (link to a calendar event so they are reminded on their phone? also it might help us track how effective the flyers are)
-  - 
+
+# 02.23.2024
+
+**Attendance:** 16  
+**Venue:** UMD IMD Visualization Lab (A.V. Williams 3258)  
+
+walking around to help out while people jammed was VERY USEFUL so many people had questions   
+not enough time to do flok/collaborative stuff though :(  
+note: initSource() only works on Chrome   
