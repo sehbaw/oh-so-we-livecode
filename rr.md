@@ -35,3 +35,7 @@ src(s0).colorama(0.1).modulateScale(osc(10,0.1)).out()
     .modulate(o0, 0.9)
     .scale(0.9)
     .out(o0)
+
+
+#visuals 
+
