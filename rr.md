@@ -1,6 +1,32 @@
 pinterest for protest IMAGES TO IMAGE PROCESS: https://www.pinterest.com/yellowbuttersunshine/images/
 slideshow is better though - https://docs.google.com/presentation/d/1jHaVKnvHPHxpCceC9elZXl2W6Hat8ElN3-1e516ZwGU/edit?usp=sharing
-# BASE HYDRATEXT 
+
+# ACTUAL BASE 
+
+
+await loadScript("https://hyper-hydra.glitch.me/hydra-text.js")
+str = " hydra_! "
+hydraText.font = "serif"
+hydraText.canvasResize = 3;
+hydraText.lineWidth = "1%"
+hydraT
+s0.initScreen()
+
+src(s0).colorama(0.2)
+.layer(text(str))
+	.diff(strokeText(str).modulateScale(osc(1,1), .4))
+.out(o0)
+
+
+
+
+
+
+
+
+
+
+# BASE HYDRATEXT (without cganging visuals) 
 
 await loadScript("https://hyper-hydra.glitch.me/hydra-text.js")
 
@@ -35,7 +61,21 @@ src(s0).colorama(0.1).modulateScale(osc(10,0.1)).out()
     .modulate(o0, 0.9)
     .scale(0.9)
     .out(o0)
+#layer text on top of visuals other than hydatext base 
 
+
+await loadScript("https://hyper-hydra.glitch.me/hydra-text.js")
+str = " hydra_! "
+hydraText.font = "serif"
+hydraText.canvasResize = 3;
+hydraText.lineWidth = "1%"
+hydraT
+s0.initScreen()
+
+src(s0).colorama(0.2)
+.layer(text(str))
+	.diff(strokeText(str).modulateScale(osc(1,1), .4))
+.out(o0)
 
 #visuals 
 
