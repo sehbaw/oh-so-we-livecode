@@ -25,6 +25,7 @@ osc(5, 0.9, 0.001)
 
 
 # image tings 
+s0.initScreen()
 src(s0).colorama(0.1).modulateScale(osc(10,0.1)).out()
 
     .color(0.1,0.7,0)
