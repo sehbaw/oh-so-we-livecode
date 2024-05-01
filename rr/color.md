@@ -11,4 +11,6 @@
 | green    | $420    |
 
 
+linear gradients instead of doing flags???
+
 
