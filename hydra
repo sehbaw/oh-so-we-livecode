@@ -41,3 +41,22 @@ src(o0).modulate(osc(3),()=>a.fft[0]).diff(voronoi(1),0.01).color(1,0,3).out(o0)
 //hush()
 
 
+
+///////////////fire kinda vibe>>!>!
+//need to stop using examples but also just getting back into hydra SAUR!!
+// licensed with CC BY-NC-SA 4.0 https://creativecommons.org/licenses/by-nc-sa/4.0/
+//Flor de Fuego
+
+shape(400,0.6,2)
+.scale(0.5,0.5)
+.color([0.8,1].smooth(1),0.4,0)
+.repeat(1,1) //change to (2,1) or (2,2) to change visuals
+.modulateScale(noise(5,0.5),0.4)
+.add(o0,0.5)
+.scale(0.7)
+.out()
+
+
+
+
+
